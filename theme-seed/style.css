@@ -1,0 +1,36 @@
+/*
+Theme Name: Seed Theme
+Version:1.0.0
+Theme URI: 
+Author: T.D.N.Chathuranga
+Author URI:
+Description:
+License: 
+License URI:
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+div#header{
+	text-align: center;
+}
+
+#nav ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#nav li {display: inline; }
+
+.post_snippet{
+	border:1px #ccc solid;
+	padding: 10px;
+	margin: 20px 0;
+	border-radius: 10px;
+}
+
+a.more-link{
+	background-color: green;
+	color: white;
+	padding: 5px;
+}
